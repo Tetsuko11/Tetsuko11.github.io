@@ -37,6 +37,6 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = () => {
   setUserName();
 }
-const changeUser= () => {
+const userChange= () => {
   setUserName();
 }
